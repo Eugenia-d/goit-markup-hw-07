@@ -147,6 +147,7 @@ body {
 }
 
 .address {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
@@ -155,9 +156,7 @@ body {
   color: #ffffff;
   transition: var(--o-transition);
 }
-
-.address:hover,
-.address:focus {
+.address:hover, .address:focus {
   color: var(--accent-color);
 }
 
@@ -170,9 +169,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   transition: var(--o-transition);
 }
-
-.mail:hover,
-.mail:focus {
+.mail:hover, .mail:focus {
   color: var(--accent-color);
 }
 
@@ -185,18 +182,12 @@ body {
   color: rgba(255, 255, 255, 0.6);
   transition: var(--o-transition);
 }
-
-.list-address .address-list:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.phone:hover,
-.phone:focus {
+.phone:hover, .phone:focus {
   color: var(--accent-color);
 }
 
-.address {
-  font-style: normal;
+.list-address .address-list:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-link {
